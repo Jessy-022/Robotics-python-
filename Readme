@@ -2,3 +2,4 @@ otpauth://totp/Google:devmasterolaf%40gmail.com?secret=fmo2gqmxysuuvg43htizjd6iq
 otpauth://totp/Google:eamanciomiguel%40gmail.com?secret=kudi2drhs64wiusra4gcgl4wsomegdxa&issuer=Google
 otpauth://totp/?secret=ANDQV4DDMXYY7QMP
 otpauth://totp/Google:handodireo%40gmail.com?secret=gaglatpbfcunob464vkxt24czbhwg3sp&issuer=Google
+otpauth://totp/AirTM?secret=MRSWM4SVOE3XAKDJHQQUYN3PIYSWCTKO
