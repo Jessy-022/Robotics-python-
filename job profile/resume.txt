@@ -1,0 +1,23 @@
+ Led the full transformation of a decade-old monolithic enterprise healthcare platform into a scalable, production-grade **micro-frontend architecture** using **React**, **Next.js**, and **Webpack Module Federation**.
+ Assessed limitations of the legacy architecture and developed a phased migration strategy that separated UI domains into independent verticals, allowing parallel development by cross-functional teams without disrupting live clinical workflows.
+ Designed and implemented a **shared shell application** responsible for loading remote micro-frontends at runtime, managing global authentication contexts (Auth0), injecting layout templates, and dynamically registering routes and menu configurations from remote JSON schemas.
+ Architected inter-application communication protocols via **custom event buses**, React Contexts, and shared state synchronization mechanisms to ensure seamless interaction across independently deployed modules.
+ Developed tooling and CLI scaffolds to bootstrap new micro-apps with pre-wired CI/CD pipelines, linting standards, shared tokens, automated integration with Nx monorepo workspace, and strict TypeScript enforcement.
+ Collaborated closely with product, UX, and accessibility teams to define **domain boundaries**, user flows, and WCAG-compliant design patterns that scaled across tenant-branded microfrontends.
+ Spearheaded the integration of advanced **SSR/ISR strategies** in Next.js to handle pre-rendering for static and dynamic views, optimizing performance for low-latency dashboard rendering under high user concurrency.
+ Introduced build-time and runtime analytics for each micro-frontend including Lighthouse audits, error telemetry, and feature-level usage dashboards for business intelligence reviews.
+ Achieved significant **engineering velocity gains**, reducing average feature delivery time by 40%, and empowering teams to ship independently versioned components with full regression test automation baked into the CI/CD lifecycle.
+ Delivered advanced SSR/ISR configurations using Next.js with edge caching and analytics hooks, supporting high-availability dashboards with sub-1s TTI.
+ Created an adaptive layout framework to dynamically host federated frontends with route injection, role-based navigation control, and config-driven menu builders.
+ Built enterprise-grade component libraries with full accessibility (WCAG 2.1 AA), design token integration, and Storybook-driven documentation and snapshot testing.
+ Integrated GraphQL endpoints through Apollo with schema stitching, advanced cache eviction, and analytics-augmented interceptor chains.
+ Developed forms-as-a-platform modules using Formik, Zod/Yup, and server-sourced validation contracts, enabling distributed form authorship.
+ Integrated real-time telemetry via SignalR and Azure Event Grid into dashboards with live charting (D3.js), heat maps, and threshold alerting overlays.
+ Led front-end CI/CD design using Azure DevOps with audit snapshot hooks, auto-tag pipelines, and ESLint/Prettier/husky enforcement at commit-time.
+ Established organization-wide coding standards, linting presets, and scaffold generators for Next.js microfrontends using Nx monorepo tooling.
+ Achieved Lighthouse 100 scores across all major KPIs; led monthly UX performance reviews and regression triages.
+ Conducted workshops on advanced hooks, scalable state management patterns (Zustand/Redux Toolkit), and design system governance.
+ Authored 100+ pages of onboarding content and pattern documentation; maintained Docusaurus portal for architectural literacy across teams.
+ Built telemetry dashboards for behavior monitoring with Application Insights, custom event traces, and behavior tagging for stakeholder reviews.
+ Delivered robust i18n and theming support across tenants using context-driven tokens and Next.js middleware for language routing.
+ Led multi-phase transition to strict TypeScript modes with 150+ refactored components, shared tsconfig bases, and lint rule extensions.
